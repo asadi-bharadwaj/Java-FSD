@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>GetPostServlet</display-name>
+  <servlet>
+  <servlet-name>Get
+  </servlet-name>
+  <servlet-class>com.assistedPractice.GetHandler</servlet-class>
+  </servlet>
+  <servlet>
+  <servlet-name>Post</servlet-name>
+  <servlet-class>com.assistedPractice.PostHandler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Get</servlet-name>
+  <url-pattern>/GetHandler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>Post</servlet-name>
+  <url-pattern>/PostHandler</url-pattern></servlet-mapping>
+</web-app>
