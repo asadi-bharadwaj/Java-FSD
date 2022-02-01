@@ -19,7 +19,7 @@ public class productid extends HttpServlet{
 		
 		String url="jdbc:mysql://localhost:3306/product";
 		String uname="root";
-		String pass="Bharatbj@1";
+		String pass="";
 		
 		response.setContentType("text/html");
 		
